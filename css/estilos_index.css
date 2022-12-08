@@ -1,0 +1,76 @@
+.seccion_cajas{
+  display: flex;
+  flex-wrap: wrap;
+  /* min-height: 100vh; */
+  height: 1000px;
+  width: 100%;
+}
+.imagen1{
+  background-image: url('../img/img1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1 1 auto;
+  /* height: 200px;
+  width: 200px; */
+}
+.imagen2{
+  background-image: url('../img/img2-1.png');
+  background-repeat: no-repeat;
+
+  flex: 1 1 auto;
+  /* height: 200px;
+  width: 200px; */
+}
+.imagen3{
+  background-image: url('../img/img2.png');
+  background-repeat: no-repeat;
+
+  flex: 1 1 auto;
+  /* height: 200px;
+  width: 200px; */
+}
+.imagen4{
+  background-image: url('../img/img3.png');
+  background-repeat: no-repeat;
+
+  flex: 1 1 auto;
+
+  /* height: 200px;
+  width: 200px; */
+}
+.imagen5{
+  background-image: url('../img/img4-2.png');
+  background-repeat: no-repeat;
+
+  flex: 1 1 auto;
+
+  /* height: 200px;
+  width: 200px; */
+}
+.imagen6{
+  background-image: url('../img/img4-3.png');
+  background-repeat: no-repeat;
+
+  flex: 1 1 auto;
+
+  /* height: 200px;
+  width: 200px; */
+}
+.imagen7{
+  background-image: url('../img/img4-4.png');
+  background-repeat: no-repeat;
+
+  flex: 1 1 auto;
+
+  /* height: 200px;
+  width: 200px; */
+}
+.imagen8{
+  background-image: url('../img/img4.png');
+  background-repeat: no-repeat;
+
+  flex: 1 1 auto;
+
+  /* height: 200px;
+  width: 200px; */
+}
