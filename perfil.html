@@ -3,119 +3,128 @@
     <head>
         <title>Perfil</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/estilos_generales.css">
+        <link rel="stylesheet" href="./css/estilos_perfil.css">
     </head>
 
     <body>
-        <div id="contenedor">
-            <header>
+            <header class="navBar">
+              <h1>Perfil</h1>
+              <a href="./index.html">Inicio</a>
+              <img src="./img/imagen_perfil.png" alt="Foto Perfil">
             </header>
 
-            <main>
-                <h1>Perfil:</h1>
-
+            <main class="contenedor">
+              <form class="formulario">
                 <div class="informacion_personal">
-                    <h3>Sus datos personales</h3>
 
-                    <img src="img/imagen_perfil.png" alt="Imagen Perfil" id="imagen_perfil" title="Su imagen de perfil"> <!--Posicionada a un costado-->
+                  <img src="img/imagen_perfil.png" alt="Imagen Perfil" id="imagen_perfil" title="Su imagen de perfil"> 
+                  <div class="contenedor_datos">
+                    <h2>Sus datos personales</h2>
                     <p>Ingresar nueva foto de Perfil <input type="file"></p>
-
                     <p><strong>Nombre: <input type="text" placeholder="Mauro" required></strong></p>
                     <p><strong>Apellido: <input type="text" placeholder="Jose" required></strong></p>
                     <p><strong>Email: <input type="email" placeholder="mauroJose@gmail.com" required title="Correo electrónico"></strong></p>
                     <p>Dirección (no obligatorio): <input type="text" placeholder="Alem 2000" title="Su Dirección"></p>
                     <p>Edad (no obligatorio): <input type="text" placeholder="14" title="Su edad"></p>
-
                     <label><input type="radio" name="sexo" valor="Hombre">Hombre</label>
                     <label><input type="radio" name="sexo" valor="Hombre">Mujer</label>
+                  </div>
 
                 </div>
-
-                <div class="preferencias">
-                    <h3>Preferencias Personales</h3>
-                    <p>Seleccione las cosas que le interesa:</p>
-                        <ul class="lista_preferencias">
-                            <li>
-                                <p>Autos. <input type="checkbox" title=""></p>
-                            </li>
-                            <li>
-                                <p>Computadoras. <input type="checkbox"></p>
-                            </li>
-                            <li>
-                                <p>HTML. <input type="checkbox"></p>
-                            </li>
-                            <li>
-                                <p>Python. <input type="checkbox"></p>
-                            </li>
-                            <li>
-                                <p>Comida. <input type="checkbox"></p>
-                            </li>
-                        </ul>
-                </div>
-
-                <div class="habilidades">
-                    <h3>Habilidades</h3>
+                <div class="pref_formacion_skills">
+                  <div class="seccion">
+                    <div class="preferencias">
+                      <h2>Preferencias Personales</h2>
+                      <p>Seleccione las cosas que le interesa:</p>
+                          <ul class="lista_preferencias">
+                              <li>
+                                  <p>Autos. <input type="checkbox" title=""></p>
+                              </li>
+                              <li>
+                                  <p>Computadoras. <input type="checkbox"></p>
+                              </li>
+                              <li>
+                                  <p>HTML. <input type="checkbox"></p>
+                              </li>
+                              <li>
+                                  <p>Python. <input type="checkbox"></p>
+                              </li>
+                              <li>
+                                  <p>Comida. <input type="checkbox"></p>
+                              </li>
+                          </ul>
+                    </div>
+                    <div class="formacion">
+                      <h2>Títulos otorgados</h2>
+                      <p>Abogacía - UNS</p>
+                      <p>Ingeniería Mecánica - UNS</p>
+                      <p>Medicina - UNS</p>
+                    </div>
+                  </div>
+                  <div class="habilidades">
+                    <h2>Habilidades</h2>
                     <p>Ingrese un número entre 0 y 10 respecto a su conocimiento:</p>
                     <ul>
-                        <p>HTML <input type="number" min="0" max="10" required="Ingrese un número"></p>
-                        <p>CSS <input type="number" min="0" max="10"></p>
-                        <p>C++ <input type="number" min="0" max="10"></p>
-                        <p>Python <input type="number" min="0" max="10"></p>
+                      <p>HTML <input type="number" min="0" max="10" required="Ingrese un número"></p>
+                      <p>CSS <input type="number" min="0" max="10"></p>
+                      <p>C++ <input type="number" min="0" max="10"></p>
+                      <p>Python <input type="number" min="0" max="10"></p>
                     </ul>
+                  </div>
                 </div>
 
-                <div class="formacion">
-                    <h3>Títulos otorgados</h3>
-                    <p>Abogacía - UNS</p>
-                    <p>Ingeniería Mecánica - UNS</p>
-                    <p>Medicina - UNS</p>
-                </div>
-
-                <div class="experiencia">
-                    <div class="experiencia_laboral">
-                        <h3>Empresas en las cuales pude trabajar:</h5>
-                        <h5><a href="https://www.microsoft.com">Microsoft</a></h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda illo repudiandae unde.</p>
-                        <h5><a href="https://www.nokia.com">Nokia</a></h6>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                        <h5><a href="https://www.telefonica.com">Telefónica</a></h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
+                  
+                  <div class="experiencia_laboral">
+                    <h2>Empresas en las cuales pude trabajar:</h2>
+                      <a href="https://www.microsoft.com" target="_blank">Microsoft</a>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda illo repudiandae unde.</p>
+                      <a href="https://www.nokia.com" target="_blank">Nokia</a>
+                      <p>Lorem ipsum dolor sit amet consectetur.</p>
+                      <a href="https://www.telefonica.com" target="_blank">Telefónica</a>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+   
 
                 <div class="contacto">
-                    <h3>Contacto:</h3>
-                    <input type="text" required placeholder="Nombre">
-                    <input type="text" required placeholder="Apellido">
-
-                    <p>Indique su país:</p>
-                    <select>
-                        <option value="pais1">Alemania</option>
-                        <option value="pais2">Brasil</option>
-                        <option value="pais3">España</option>
-                        <option value="pais4">Senegal</option>
-                        <option value="pais5">Italia</option>
-                        <option value="pais6">Polonia</option>
-                        <option value="pais7" selected>Argentina</option>
-                        <option value="pais8">Francia</option>
-                        <option value="pais9">Inglaterra</option>
-                        <option value="pais10">China</option>
-                        <option value="pais11">Rusia</option>
-                    </select>
-
-                    <div id="Opinion">
-                        <h3>Su opinión: </h3>
-                        <textarea cols="70" rows="12" placeholder="Comentario: "></textarea>
+                    <div>
+                      <div>
+                        <h2>Contacto:</h2>
+                        <input class="input_contac" type="text" required placeholder="Nombre">
+                        <input class="input_contac" type="text" required placeholder="Apellido">
+                      </div>
+                      
+                      <p>Indique su país:
+                        <select>
+                          <option selected disabled>País?</option>
+                          <option value="pais1">Alemania</option>
+                          <option value="pais2">Brasil</option>
+                          <option value="pais3">España</option>
+                          <option value="pais4">Senegal</option>
+                          <option value="pais5">Italia</option>
+                          <option value="pais6">Polonia</option>
+                          <option value="pais7" >Argentina</option>
+                          <option value="pais8">Francia</option>
+                          <option value="pais9">Inglaterra</option>
+                          <option value="pais10">China</option>
+                          <option value="pais11">Rusia</option>
+                        </select>
+                      </p>
                     </div>
-
-                    <button type="submit">Enviar</button>
+                      
+                    <div class="opinion">
+                        <h2>Su opinión: </h2>
+                        <textarea cols="45" rows="10" placeholder="Comentario:"></textarea>
+                    </div>
                 </div>
 
                 <button type="submit">Actualizar perfil</button>
+              </form>
                 
             </main>
 
             <footer>
+              <p>Creadores: Diego Antonio Del Greco - Gonzalo Stickar - Matias Dupont | &copy</p>
             </footer>
-        </div>
     </body>
 </html>
