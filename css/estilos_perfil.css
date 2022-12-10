@@ -12,9 +12,6 @@
   gap: 2rem;
   margin: 2rem 3rem;
   padding: 2rem;
-  background-color: #E5E5E5;
-  border-radius: 4.5rem;
-  box-shadow: 0rem 0.8rem 1.5rem rgba(0 0 0 / 0.1);
 }
 .informacion_personal img{
   border: 0.3rem solid #000000;
@@ -39,6 +36,9 @@
 @media (min-width: 768px) {
   .informacion_personal{
     flex-direction: row;
+    background-color: #E5E5E5;
+    border-radius: 4.5rem;
+    box-shadow: 0rem 0.8rem 1.5rem rgba(0 0 0 / 0.1);
   }
 }
 
@@ -51,9 +51,6 @@
   gap: 2rem;
   margin: 2rem 3rem;
   padding: 2rem;
-  background-color: #E5E5E5;
-  border-radius: 4.5rem;
-  box-shadow: 0rem 0.8rem 1.5rem rgba(0 0 0 / 0.1);
 }
 .seccion{
   display: flex;
@@ -79,6 +76,9 @@
 @media (min-width: 768px) {
   .pref_formacion_skills{
     flex-direction: row;
+    background-color: #E5E5E5;
+    border-radius: 4.5rem;
+    box-shadow: 0rem 0.8rem 1.5rem rgba(0 0 0 / 0.1);
   }
 }
 

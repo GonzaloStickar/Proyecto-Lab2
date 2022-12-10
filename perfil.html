@@ -8,9 +8,15 @@
     </head>
 
     <body>
-            <header class="navBar">
-              <h1>Perfil</h1>
-              <a href="./index.html">Inicio</a>
+            <header class="header">
+                <h1>Perfil</h1>
+                <nav class="navBar">
+                  <a href="./index.html">Inicio</a>
+                  <a href="#datos">Datos personales</a>
+                  <a href="#formacion">Formacion</a>
+                  <a href="#experiencia">Experiencia</a>
+                  <a href="#contacto">Contacto</a>
+                </nav>
               <img src="./img/imagen_perfil.png" alt="Foto Perfil">
             </header>
 
@@ -19,7 +25,7 @@
                 <div class="informacion_personal">
 
                   <img src="img/imagen_perfil.png" alt="Imagen Perfil" id="imagen_perfil" title="Su imagen de perfil"> 
-                  <div class="contenedor_datos">
+                  <div class="contenedor_datos" id="datos">
                     <h2>Sus datos personales</h2>
                     <p>Ingresar nueva foto de Perfil <input type="file"></p>
                     <p><strong>Nombre: <input type="text" placeholder="Mauro" required></strong></p>
@@ -32,7 +38,7 @@
                   </div>
 
                 </div>
-                <div class="pref_formacion_skills">
+                <div class="pref_formacion_skills" id="formacion">
                   <div class="seccion">
                     <div class="preferencias">
                       <h2>Preferencias Personales</h2>
@@ -75,7 +81,7 @@
                 </div>
 
                   
-                  <div class="experiencia_laboral">
+                  <div class="experiencia_laboral" id="experiencia">
                     <h2>Empresas en las cuales pude trabajar:</h2>
                       <a href="https://www.microsoft.com" target="_blank">Microsoft</a>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda illo repudiandae unde.</p>
@@ -86,7 +92,7 @@
                   </div>
    
 
-                <div class="contacto">
+                <div class="contacto" id="contacto">
                     <div>
                       <div>
                         <h2>Contacto:</h2>
