@@ -11,7 +11,6 @@
 .row1{
   display: flex;
   justify-content: center;
-  background-color: aqua;
   flex: 1 1 auto;
   justify-content: space-around;
   align-items: center;
@@ -20,7 +19,8 @@
 .row2{
   display: flex;
   flex-flow: row wrap;
-  background-color: blueviolet;
+  background-color: #FCA311;
+  border-radius: 4.5rem;
   flex: 2 1 auto;
   justify-content: space-around;
   align-items: center;
@@ -29,7 +29,8 @@
 .row3{
   display: flex;
   flex-flow: row wrap;
-  background-color: blue;
+  background-color: #E5E5E5;
+  border-radius: 4.5rem;
   flex: 2 1 auto;
   justify-content: space-around;
   align-items: center;
@@ -38,7 +39,8 @@
 .row4{
   display: flex;
   flex-flow: row wrap;
-  background-color: red;
+  background-color: #4c7add;
+  border-radius: 4.5rem;
   flex: 4 1 auto;
   justify-content: space-around;
   align-items: center;
