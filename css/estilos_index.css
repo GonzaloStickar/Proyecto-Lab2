@@ -9,8 +9,6 @@
   justify-content: space-between;
   gap: 1rem;
   margin: 1rem;
-  background-color: #000000;
-  color: #ffffff;
 }
 .header_index img{
   width: 4rem;
@@ -21,10 +19,9 @@
 @media (min-width: 768px) {
   .header_index{
     flex-direction: row;
-    background-color: #ffffff;
-    color: #000000;
   }
 }
+
 #contenedor{
   width: 100%;
   display: flex;
