@@ -4,18 +4,6 @@
 html {
   box-sizing: border-box;
 }
-/* *, 
-*:before,
-*:after {
-    box-sizing: border-box;
-    
-    * selecciona todos los elementos del html.
-    before es un psudelemento que agrega contenido antes de una caja.
-    after es lo mismo pero despues.
-    border-box se refiere a lo que agregues despues a una caja ( paddings o bordes ) 
-    no afecta al tamanio de la caja
-     
-} */
 body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1.5px;
