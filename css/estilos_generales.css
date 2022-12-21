@@ -23,11 +23,8 @@ a {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
- 
-}
-.header h1 {
-  text-decoration: underline;
-  box-shadow: 0rem 0.8rem 1.5rem rgba(0 0 0 / 0.1);
+  background-color: wheat;
+  z-index: 100;
 }
 .header img{
   width: 4rem;
@@ -47,11 +44,16 @@ a {
   .header{
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 3rem;
     padding: 0.5rem 0;
     position: sticky;
     top: 0;
-    background-color: #FFFFFF;
+    width: 100%;
+  }
+  .header h1{
+    margin-left: 2rem;
+  }
+  .header img{
+    margin-right: 2rem;
   }
   .navBar{
     flex-direction: row;
@@ -60,12 +62,21 @@ a {
 
 /* FOOTER */
 footer{
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-color: #000000; 
-  color: white;
+  color: black;
+  background-color: wheat; 
+  font-weight: bold;
   padding: 2rem;
   height: 100%;
   width: 100%;
+}
+
+@media (max-width: 500px){
+  footer{
+    background-color: #000000;
+    color: white;
+  }
 }
 
 /* BOTONES */
@@ -82,7 +93,6 @@ a, button{
   border-radius: 4.5rem;
   box-shadow: 0rem 0.8rem 1.5rem rgba(0 0 0 / 0.1);
   transition: all .3s ease 0s;
-  outline: none;
 }
 a:hover{
   background-color: #14213d;

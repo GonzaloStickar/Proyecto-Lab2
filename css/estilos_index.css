@@ -1,6 +1,5 @@
 *{
   margin: 0;
-  box-sizing: border-box;
 }
 .header_index{
   display: flex;
@@ -8,7 +7,8 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  margin: 1rem;
+  padding: 1rem;
+  background-color: wheat;
 }
 .header_index img{
   width: 4rem;
@@ -33,7 +33,6 @@
   flex-flow: row wrap;
   background-color: #FCA311;
   border-radius: 4.5rem;
-  flex: 2 1 auto;
   justify-content: space-around;
   align-items: center;
   margin: 10px;
@@ -44,7 +43,6 @@
   flex-flow: row wrap;
   background-color: #E5E5E5;
   border-radius: 4.5rem;
-  flex: 2 1 auto;
   justify-content: space-around;
   align-items: center;
   margin: 10px;
@@ -55,7 +53,6 @@
   flex-flow: row wrap;
   background-color: #4c7add;
   border-radius: 4.5rem;
-  flex: 4 1 auto;
   justify-content: space-around;
   align-items: center;
   margin: 10px;
